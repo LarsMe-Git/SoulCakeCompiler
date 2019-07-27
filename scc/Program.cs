@@ -4,6 +4,7 @@ namespace scc
 {
     class Program
     {
+        //Test
         static void Main(string[] args)
         {
             while (true)

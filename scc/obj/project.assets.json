@@ -688,23 +688,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lars\\.nuget\\packages\\": {},
+    "C:\\Users\\Lars-Admin\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\scc\\scc.csproj",
+      "projectUniqueName": "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\scc\\scc.csproj",
       "projectName": "scc",
-      "projectPath": "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\scc\\scc.csproj",
-      "packagesPath": "C:\\Users\\Lars\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\scc\\obj\\",
+      "projectPath": "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\scc\\scc.csproj",
+      "packagesPath": "C:\\Users\\Lars-Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\scc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Lars\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lars-Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
