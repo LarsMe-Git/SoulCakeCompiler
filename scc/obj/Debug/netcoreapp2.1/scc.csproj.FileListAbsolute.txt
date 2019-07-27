@@ -1,0 +1,11 @@
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\scc\bin\Debug\netcoreapp2.1\scc.deps.json
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\scc\bin\Debug\netcoreapp2.1\scc.runtimeconfig.json
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\scc\bin\Debug\netcoreapp2.1\scc.runtimeconfig.dev.json
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\scc\bin\Debug\netcoreapp2.1\scc.dll
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\scc\bin\Debug\netcoreapp2.1\scc.pdb
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\scc\obj\Debug\netcoreapp2.1\scc.csprojAssemblyReference.cache
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\scc\obj\Debug\netcoreapp2.1\scc.csproj.CoreCompileInputs.cache
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\scc\obj\Debug\netcoreapp2.1\scc.AssemblyInfoInputs.cache
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\scc\obj\Debug\netcoreapp2.1\scc.AssemblyInfo.cs
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\scc\obj\Debug\netcoreapp2.1\scc.dll
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\scc\obj\Debug\netcoreapp2.1\scc.pdb
