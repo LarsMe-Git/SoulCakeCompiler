@@ -1,12 +1,28 @@
-﻿using System;
+﻿using Microsoft.CodeAnalysis;
+using Microsoft.CodeAnalysis.CSharp;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using SoulCake.CodeAnalysis;
 
-namespace scc
+namespace SoulCake
 {
+    // 1 + 2 * 3                                            1 + 2 + 3
+    //
+    //          +                                               +
+    //         / \                                             / \
+    //        1   * binary operator node                      +   3
+    //           / \                                         / \     
+    //          2   3 Numbernode                            1   2
+    // 51:22 Episode 1
+
+
     class Program
     {
         //Test
         static void Main(string[] args)
         {
+            bool showTree = false;
             while (true)
             {
                 Console.WriteLine("> ");
@@ -15,15 +31,79 @@ namespace scc
                 {
                     return;
                 }
-                if (line == "1 + 2 * 3")
+
+                if (line == "#showTree")
                 {
-                    Console.WriteLine("7");
+                    showTree = !showTree;
+                    Console.WriteLine(showTree ? "Showing parse trees." : "Not showing parse trees");
+                    continue;
+                }
+                else if (line == "#cls")
+                {
+                    Console.Clear();
+                    continue;
+                }
+                var syntaxTree = CodeAnalysis.SyntaxTree.Parse(line);
+
+                if (showTree)
+                {
+                    var color = Console.ForegroundColor;
+                    Console.ForegroundColor = ConsoleColor.DarkGray;
+                    PrettyPrint(syntaxTree.Root);
+                    Console.ForegroundColor = color;
+                }
+
+
+               
+               
+                if (!syntaxTree.Diagnostics.Any())
+                {
+                    var e = new Evaluator(syntaxTree.Root);
+                    var result = e.Evaluate();
+                    Console.WriteLine(result);
                 }
                 else
                 {
-                    Console.WriteLine("Error: Invalid expression");
-                }
+                    var color = Console.ForegroundColor;
+                    Console.ForegroundColor = ConsoleColor.DarkRed;
 
+                    foreach (var diagnostic in syntaxTree.Diagnostics)
+                    {
+                        Console.WriteLine(diagnostic);
+                    }
+
+                    Console.ForegroundColor = color;
+                }
+            }
+        }
+
+        static void PrettyPrint(CodeAnalysis.SyntaxNode node, string indent = "", bool isLast = true)
+        {
+
+            var marker = isLast ? "└─" : "├─";
+
+            Console.Write(indent);
+            Console.Write(marker);
+            Console.Write(node.Kind);
+
+            if (node is CodeAnalysis.SyntaxToken t && t.Value != null)
+            {
+
+                Console.Write(" ");
+                Console.Write(t.Value);
+
+            }
+
+            Console.WriteLine();
+
+            // indent += "    ";
+            indent += isLast ? "    " : "│   ";
+
+            var lastChild = node.GetChildren().LastOrDefault();
+
+            foreach (var child in node.GetChildren())
+            {
+                PrettyPrint(child, indent, child == lastChild);
             }
         }
     }
