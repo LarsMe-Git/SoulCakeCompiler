@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace SoulCake.CodeAnalysis
 {
-    sealed class SyntaxTree
+  public  sealed class SyntaxTree
     {
         public SyntaxTree(IEnumerable<string> diagnostics, ExpresssionSyntax root, SyntaxToken endOfFileToken)
         {

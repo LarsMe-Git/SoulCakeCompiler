@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace SoulCake.CodeAnalysis
 {
-    class SyntaxToken : SyntaxNode
+  public sealed  class SyntaxToken : SyntaxNode
     {
         public SyntaxToken(SyntaxKind kind, int postion, string text, object value)
         {

@@ -2,7 +2,7 @@
 
 namespace SoulCake.CodeAnalysis
 {
-    sealed class ParenthesizedExpressionSyntax : ExpresssionSyntax
+   public sealed class ParenthesizedExpressionSyntax : ExpresssionSyntax
     {
         public ParenthesizedExpressionSyntax(SyntaxToken OpenParenthesisToken, ExpresssionSyntax expresssion, SyntaxToken CloseParenthesisToken)
         {

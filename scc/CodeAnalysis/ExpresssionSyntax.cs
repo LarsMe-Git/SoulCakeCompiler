@@ -1,6 +1,6 @@
 ﻿namespace SoulCake.CodeAnalysis
 {
-    abstract class ExpresssionSyntax : SyntaxNode
+   public abstract class ExpresssionSyntax : SyntaxNode
     {
 
     }

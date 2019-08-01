@@ -1,0 +1,17 @@
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\bin\Debug\netcoreapp2.1\SoulCake.Tests.deps.json
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\bin\Debug\netcoreapp2.1\SoulCake.Tests.runtimeconfig.json
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\bin\Debug\netcoreapp2.1\SoulCake.Tests.runtimeconfig.dev.json
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\bin\Debug\netcoreapp2.1\SoulCake.Tests.dll
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\bin\Debug\netcoreapp2.1\SoulCake.Tests.pdb
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\bin\Debug\netcoreapp2.1\scc.dll
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\bin\Debug\netcoreapp2.1\scc.pdb
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\obj\Debug\netcoreapp2.1\SoulCake.Tests.csprojAssemblyReference.cache
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\obj\Debug\netcoreapp2.1\SoulCake.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\obj\Debug\netcoreapp2.1\SoulCake.Tests.AssemblyInfoInputs.cache
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\obj\Debug\netcoreapp2.1\SoulCake.Tests.AssemblyInfo.cs
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\obj\Debug\netcoreapp2.1\SoulCake.Tests.csproj.CopyComplete
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\obj\Debug\netcoreapp2.1\SoulCake.Tests.dll
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\obj\Debug\netcoreapp2.1\SoulCake.Tests.pdb

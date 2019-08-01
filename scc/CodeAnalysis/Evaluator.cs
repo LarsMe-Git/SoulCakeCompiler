@@ -2,8 +2,8 @@ using System;
 
 namespace SoulCake.CodeAnalysis
 {
-
-    class Evaluator
+ // Lesson 2 27:34
+   public sealed class Evaluator
     {
         private readonly ExpresssionSyntax _root;
 
@@ -22,9 +22,9 @@ namespace SoulCake.CodeAnalysis
             // binary expression
             // numberExpression
 
-            if (node is NumberExpressionSyntax n)
+            if (node is LiteralExpressionSyntax n)
             {
-                return (int)n.NumberToken.Value;
+                return (int)n.LiteralToken.Value;
             }
 
             if (node is BinaryExpressionSyntax b)

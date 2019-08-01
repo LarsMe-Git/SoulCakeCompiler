@@ -2,7 +2,7 @@
 
 namespace SoulCake.CodeAnalysis
 {
-    sealed class BinaryExpressionSyntax : ExpresssionSyntax
+    public sealed class BinaryExpressionSyntax : ExpresssionSyntax
     {
         public BinaryExpressionSyntax(ExpresssionSyntax left, SyntaxToken operatorToken, ExpresssionSyntax right)
         {
@@ -24,7 +24,5 @@ namespace SoulCake.CodeAnalysis
             yield return Right;
         }
     }
-
-
 
 }

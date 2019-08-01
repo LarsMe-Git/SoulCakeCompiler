@@ -17,12 +17,12 @@ namespace SoulCake
     // 51:22 Episode 1
 
 
-    class Program
+    internal static class Program
     {
         //Test
-        static void Main(string[] args)
+      private  static void Main()
         {
-            bool showTree = false;
+            var showTree = false;
             while (true)
             {
                 Console.WriteLine("> ");
@@ -47,10 +47,10 @@ namespace SoulCake
 
                 if (showTree)
                 {
-                    var color = Console.ForegroundColor;
+           
                     Console.ForegroundColor = ConsoleColor.DarkGray;
                     PrettyPrint(syntaxTree.Root);
-                    Console.ForegroundColor = color;
+                    Console.ResetColor();
                 }
 
 
@@ -64,7 +64,7 @@ namespace SoulCake
                 }
                 else
                 {
-                    var color = Console.ForegroundColor;
+                  
                     Console.ForegroundColor = ConsoleColor.DarkRed;
 
                     foreach (var diagnostic in syntaxTree.Diagnostics)
@@ -72,7 +72,7 @@ namespace SoulCake
                         Console.WriteLine(diagnostic);
                     }
 
-                    Console.ForegroundColor = color;
+                    Console.ResetColor();
                 }
             }
         }
@@ -97,7 +97,7 @@ namespace SoulCake
             Console.WriteLine();
 
             // indent += "    ";
-            indent += isLast ? "    " : "│   ";
+            indent += isLast ? "   " : "│   ";
 
             var lastChild = node.GetChildren().LastOrDefault();
 

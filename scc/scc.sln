@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "scc", "scc.csproj", "{9B350164-9666-49BF-9AD2-E1ED9E87C204}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoulCake.Tests", "..\SoulCake.Tests\SoulCake.Tests.csproj", "{38532B3F-8210-4B9D-AD7C-7293AB1B704B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9B350164-9666-49BF-9AD2-E1ED9E87C204}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B350164-9666-49BF-9AD2-E1ED9E87C204}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B350164-9666-49BF-9AD2-E1ED9E87C204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38532B3F-8210-4B9D-AD7C-7293AB1B704B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38532B3F-8210-4B9D-AD7C-7293AB1B704B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38532B3F-8210-4B9D-AD7C-7293AB1B704B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38532B3F-8210-4B9D-AD7C-7293AB1B704B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

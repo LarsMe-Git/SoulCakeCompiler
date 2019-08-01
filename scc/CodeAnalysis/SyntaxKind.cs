@@ -1,6 +1,6 @@
 ﻿namespace SoulCake.CodeAnalysis
 {
-    enum SyntaxKind
+   public  enum SyntaxKind
     {
         NumberToken,
         WhitespaceToken,
@@ -12,9 +12,10 @@
         CloseParenthesisToken,
         BadToken,
         EndOfFileToken,
-        NumberExpression,
+        LiteralExpression,
         BinaryExpression,
-        ParenthesizedExpression
+        ParenthesizedExpression,
+        UnaryExpression
     }
 
 
