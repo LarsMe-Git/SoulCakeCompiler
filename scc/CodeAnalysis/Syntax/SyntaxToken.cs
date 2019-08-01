@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace SoulCake.CodeAnalysis
+namespace SoulCake.CodeAnalysis.Syntax
 {
   public sealed  class SyntaxToken : SyntaxNode
     {

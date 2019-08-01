@@ -1,4 +1,4 @@
-﻿namespace SoulCake.CodeAnalysis
+﻿namespace SoulCake.CodeAnalysis.Syntax
 {
    public  enum SyntaxKind
     {

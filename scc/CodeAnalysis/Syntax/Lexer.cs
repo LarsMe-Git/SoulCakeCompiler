@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace SoulCake.CodeAnalysis
+namespace SoulCake.CodeAnalysis.Syntax
 {
    internal sealed class Lexer
     {

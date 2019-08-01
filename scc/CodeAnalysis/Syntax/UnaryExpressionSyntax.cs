@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace SoulCake.CodeAnalysis
+namespace SoulCake.CodeAnalysis.Syntax
 {
     public sealed class UnaryExpressionSyntax : ExpresssionSyntax
     {

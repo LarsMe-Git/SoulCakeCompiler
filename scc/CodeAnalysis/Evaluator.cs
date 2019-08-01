@@ -1,15 +1,17 @@
+using SoulCake.CodeAnalysis.Binding;
+using SoulCake.CodeAnalysis.Syntax;
 using System;
 
 namespace SoulCake.CodeAnalysis
 {
  // Lesson 2 27:34
-   public sealed class Evaluator
+   internal sealed class Evaluator
     {
-        private readonly ExpresssionSyntax _root;
+        private readonly BoundExpression _root;
 
-        public Evaluator(ExpresssionSyntax root)
+        public Evaluator(BoundExpression root)
         {
-            this._root = root;
+            _root = root;
         }
 
         public int Evaluate()
@@ -17,48 +19,56 @@ namespace SoulCake.CodeAnalysis
             return EvaluateExpression(_root);
         }
 
-        private int EvaluateExpression(ExpresssionSyntax node)
+        private int EvaluateExpression(BoundExpression node)
         {
             // binary expression
             // numberExpression
 
-            if (node is LiteralExpressionSyntax n)
+            if (node is BoundLiteralExpression n)
             {
-                return (int)n.LiteralToken.Value;
+                return (int)n.Value;
             }
 
-            if (node is BinaryExpressionSyntax b)
+            if( node is BoundUnaryExpression u)
+            {
+                var operand = EvaluateExpression(u.Operand);
+
+                switch (u.OperatorKind)
+                {
+                    case BoundUnaryOperatorKind.Identity:
+                        return operand;
+                    case BoundUnaryOperatorKind.Negation:
+                        return -operand;
+                    default:
+                        throw new Exception($"Unexpected unary operator {u.OperatorKind}");
+                }
+            }
+
+            if (node is BoundBinaryExpression b)
             {
                 var left = EvaluateExpression(b.Left);
                 var right = EvaluateExpression(b.Right);
 
-                if (b.OperatorToken.Kind == SyntaxKind.PlusToken)
+                switch (b.OperatorKind)
                 {
-                    return left + right;
-                }
-                else if (b.OperatorToken.Kind == SyntaxKind.MinusToken)
-                {
-                    return left - right;
-                }
-                else if (b.OperatorToken.Kind == SyntaxKind.StarToken)
-                {
-                    return left * right;
-                }
-                else if (b.OperatorToken.Kind == SyntaxKind.SlashToken)
-                {
-                    return left / right;
-                }
-                else
-                {
-                    throw new Exception($"Unexpected binary operator {b.OperatorToken.Kind}");
+                    case BoundBinaryOperatorKind.Addition:
+                        return left + right;
+                    case BoundBinaryOperatorKind.Subtraction:
+                        return left - right;
+                    case BoundBinaryOperatorKind.Multiplication:
+                        return left * right;
+                    case BoundBinaryOperatorKind.Division:
+                        return left / right;
+                    default:
+                        throw new Exception($"Unexpected binary operator {b.OperatorKind}");
                 }
 
             }
 
-            if (node is ParenthesizedExpressionSyntax p)
-            {
-                return EvaluateExpression(p.Expresssion);
-            }
+            //if (node is ParenthesizedExpressionSyntax p)
+            //{
+            //    return EvaluateExpression(p.Expresssion);
+            //}
 
             throw new Exception($"Unexpected node {node.Kind}");
         }
