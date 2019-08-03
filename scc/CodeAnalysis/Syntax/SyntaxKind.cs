@@ -15,7 +15,15 @@
         LiteralExpression,
         BinaryExpression,
         ParenthesizedExpression,
-        UnaryExpression
+        UnaryExpression,
+        TrueKeyword,
+        FalseKeyword,
+        IdentifierToken,
+        PipePipeToken,
+        AmpersandAmpersandToken,
+        BangToken,
+        EqualsEqualsToken,
+        BangEqualsToken
     }
 
 

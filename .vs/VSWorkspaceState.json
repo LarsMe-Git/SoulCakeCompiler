@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\scc",
+    "\\scc\\CodeAnalysis",
+    "\\scc\\CodeAnalysis\\Binding",
+    "\\scc\\CodeAnalysis\\Syntax",
     "\\SoulCake.Tests"
   ],
-  "SelectedNode": "\\SoulCake.Tests\\SoulCake.Tests.csproj",
+  "SelectedNode": "\\scc\\CodeAnalysis\\Evaluator.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -2,21 +2,23 @@
 
 namespace SoulCake.CodeAnalysis.Binding
 {
+
+
     internal sealed class BoundBinaryExpression : BoundExpression
     {
-        public BoundBinaryExpression(BoundExpression left, BoundBinaryOperatorKind operatorKind, BoundExpression right)
+        public BoundBinaryExpression(BoundExpression left, BoundBinaryOperator op, BoundExpression right)
         {
             Left = left;
-            OperatorKind = operatorKind;
+            Op = op;
             Right = right;
         }
 
 
 
         public override BoundNodeKind Kind => BoundNodeKind.BinaryExpression;
-        public override Type Type => Left.Type;
+        public override Type Type => Op.ResultType;
         public BoundExpression Left { get; }
-        public BoundBinaryOperatorKind OperatorKind { get; }
+        public BoundBinaryOperator Op{ get; }
         public BoundExpression Right { get; }
 
         
