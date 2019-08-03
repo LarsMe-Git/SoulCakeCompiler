@@ -459,6 +459,16 @@
         "runtime": {
           "lib/netstandard1.1/xunit.execution.dotnet.dll": {}
         }
+      },
+      "SoulCake/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/SoulCake.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SoulCake.dll": {}
+        }
       }
     }
   },
@@ -1290,6 +1300,11 @@
         "xunit.extensibility.execution.2.4.1.nupkg.sha512",
         "xunit.extensibility.execution.nuspec"
       ]
+    },
+    "SoulCake/1.0.0": {
+      "type": "project",
+      "path": "../SoulCake/SoulCake/SoulCake.csproj",
+      "msbuildProject": "../SoulCake/SoulCake/SoulCake.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1297,6 +1312,7 @@
       "Microsoft.CodeAnalysis.CSharp >= 3.1.0",
       "Microsoft.CodeAnalysis.Common >= 3.1.0",
       "Microsoft.NETCore.App >= 2.1.0",
+      "SoulCake >= 1.0.0",
       "xunit >= 2.4.1"
     ]
   },
@@ -1329,7 +1345,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj": {
+              "projectPath": "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,11 +1,12 @@
 using SoulCake.CodeAnalysis.Binding;
-using SoulCake.CodeAnalysis.Syntax;
 using System;
+using System.Collections;
 
 namespace SoulCake.CodeAnalysis
 {
- // Lesson 2 1:08:20
-   internal sealed class Evaluator
+
+
+    internal sealed class Evaluator
     {
         private readonly BoundExpression _root;
 

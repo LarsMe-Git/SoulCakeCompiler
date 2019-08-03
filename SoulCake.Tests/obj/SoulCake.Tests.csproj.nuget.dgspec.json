@@ -29,7 +29,11 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj": {
+                "projectPath": "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -124,6 +128,58 @@
             "xunit.runner.visualstudio": {
               "target": "Package",
               "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj",
+        "projectName": "SoulCake",
+        "projectPath": "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj",
+        "packagesPath": "C:\\Users\\Lars-Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lars-Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
             }
           },
           "imports": [

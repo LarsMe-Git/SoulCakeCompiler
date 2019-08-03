@@ -1195,10 +1195,16 @@
         "dependencies": {
           "Microsoft.CodeAnalysis.CSharp": "3.1.0",
           "Microsoft.CodeAnalysis.Common": "3.1.0",
+          "SoulCake": "1.0.0",
           "xunit": "2.4.1"
         },
         "runtime": {
           "scc.dll": {}
+        }
+      },
+      "SoulCake/1.0.0": {
+        "runtime": {
+          "SoulCake.dll": {}
         }
       }
     }
@@ -1791,6 +1797,11 @@
       "hashPath": "xunit.runner.visualstudio.2.4.1.nupkg.sha512"
     },
     "scc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SoulCake/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

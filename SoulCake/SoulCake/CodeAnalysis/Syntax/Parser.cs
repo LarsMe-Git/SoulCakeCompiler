@@ -7,7 +7,7 @@ namespace SoulCake.CodeAnalysis.Syntax
     {
         private readonly SyntaxToken[] _tokens;
 
-        private List<string> _diagnostics = new List<string>();
+        private DiagnosticBag _diagnostics = new DiagnosticBag();
         private int _position;
 
         public Parser(string text)
@@ -32,7 +32,7 @@ namespace SoulCake.CodeAnalysis.Syntax
             _diagnostics.AddRange(lexer.Diagnostics);
         }
 
-        public IEnumerable<string> Diagnostics => _diagnostics;
+        public DiagnosticBag Diagnostics => _diagnostics;
 
         private SyntaxToken Peek(int offset)
         {
@@ -60,7 +60,7 @@ namespace SoulCake.CodeAnalysis.Syntax
                 return NextToken();
             }
 
-            _diagnostics.Add($"ERROR: Unexpected Token <{Current.Kind}>, expected <{kind}>");
+            _diagnostics.ReportUnexpectedToken(Current.Span, Current.Kind, kind);
             return new SyntaxToken(kind, Current.Postion, null, null);
         }
 

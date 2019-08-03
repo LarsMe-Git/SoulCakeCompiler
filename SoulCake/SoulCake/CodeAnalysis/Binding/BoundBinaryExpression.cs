@@ -16,7 +16,7 @@ namespace SoulCake.CodeAnalysis.Binding
 
 
         public override BoundNodeKind Kind => BoundNodeKind.BinaryExpression;
-        public override Type Type => Op.ResultType;
+        public override Type Type => Op.Type;
         public BoundExpression Left { get; }
         public BoundBinaryOperator Op{ get; }
         public BoundExpression Right { get; }

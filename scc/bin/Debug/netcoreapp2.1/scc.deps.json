@@ -10,6 +10,7 @@
         "dependencies": {
           "Microsoft.CodeAnalysis.CSharp": "3.1.0",
           "Microsoft.CodeAnalysis.Common": "3.1.0",
+          "SoulCake": "1.0.0",
           "xunit": "2.4.1"
         },
         "runtime": {
@@ -211,6 +212,11 @@
             "fileVersion": "2.4.1.0"
           }
         }
+      },
+      "SoulCake/1.0.0": {
+        "runtime": {
+          "SoulCake.dll": {}
+        }
       }
     }
   },
@@ -338,6 +344,11 @@
       "sha512": "sha512-7e/1jqBpcb7frLkB6XDrHCGXAbKN4Rtdb88epYxCSRQuZDRW8UtTfdTEVpdTl8s4T56e07hOBVd4G0OdCxIY2A==",
       "path": "xunit.extensibility.execution/2.4.1",
       "hashPath": "xunit.extensibility.execution.2.4.1.nupkg.sha512"
+    },
+    "SoulCake/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

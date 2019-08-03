@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "scc", "scc\scc.csproj", "{A09E148E-460B-4DDB-81B6-04D5466272D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoulCake.Tests", "SoulCake.Tests\SoulCake.Tests.csproj", "{46F14644-C848-4F92-A14B-3F07FFEB2CEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoulCake", "SoulCake\SoulCake\SoulCake.csproj", "{C65CEA0C-C98E-4CB1-89B0-272EA7070EEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A09E148E-460B-4DDB-81B6-04D5466272D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A09E148E-460B-4DDB-81B6-04D5466272D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A09E148E-460B-4DDB-81B6-04D5466272D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A09E148E-460B-4DDB-81B6-04D5466272D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46F14644-C848-4F92-A14B-3F07FFEB2CEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46F14644-C848-4F92-A14B-3F07FFEB2CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46F14644-C848-4F92-A14B-3F07FFEB2CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46F14644-C848-4F92-A14B-3F07FFEB2CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C65CEA0C-C98E-4CB1-89B0-272EA7070EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C65CEA0C-C98E-4CB1-89B0-272EA7070EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C65CEA0C-C98E-4CB1-89B0-272EA7070EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C65CEA0C-C98E-4CB1-89B0-272EA7070EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C6EB029-15E8-4864-97E7-B93FB28CECAB}
+	EndGlobalSection
+EndGlobal

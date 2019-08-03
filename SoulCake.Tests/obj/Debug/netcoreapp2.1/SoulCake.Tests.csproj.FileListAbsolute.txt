@@ -15,3 +15,5 @@ C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Test
 C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\obj\Debug\netcoreapp2.1\SoulCake.Tests.csproj.CopyComplete
 C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\obj\Debug\netcoreapp2.1\SoulCake.Tests.dll
 C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\obj\Debug\netcoreapp2.1\SoulCake.Tests.pdb
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\bin\Debug\netcoreapp2.1\SoulCake.dll
+C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\bin\Debug\netcoreapp2.1\SoulCake.pdb

@@ -17,6 +17,7 @@ namespace SoulCake.CodeAnalysis.Syntax
         public int Postion { get; }
         public string Text { get; }
         public object Value { get; }
+        public TextSpan Span => new TextSpan(Postion, Text.Length);
 
         public override IEnumerable<SyntaxNode> GetChildren()
         {
