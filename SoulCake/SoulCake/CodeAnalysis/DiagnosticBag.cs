@@ -56,5 +56,11 @@ namespace SoulCake.CodeAnalysis
             var message = $"Binary operator '{operatorText}' is not defined for type {leftType} and {rightType}";
             Report(span, message);
         }
+
+     public void ReportUndefinedName(TextSpan span, string name)
+        {
+            var message = $"Variable '{name}' does not exist.";
+            Report(span, message);
+        }
     }
 }

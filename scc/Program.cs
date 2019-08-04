@@ -15,7 +15,7 @@ namespace SoulCake
     //         / \                                             / \
     //        1   * binary operator node                      +   3
     //           / \                                         / \     
-    //          2   3 Numbernode                            1   2
+    //          2   3 Number node                            1   2
     // 51:22 Episode 1
     //Lesson 3  49:34
 
@@ -25,6 +25,8 @@ namespace SoulCake
       private  static void Main()
         {
             var showTree = false;
+            var variables = new Dictionary<VariableSymbol, object>();
+
             while (true)
             {
                 Console.WriteLine("> ");
@@ -47,7 +49,7 @@ namespace SoulCake
                 }
                 var syntaxTree = CodeAnalysis.Syntax.SyntaxTree.Parse(line);
                 var compilation = new CodeAnalysis.Compilation(syntaxTree);
-                var result = compilation.Evaluate();
+                var result = compilation.Evaluate(variables);
 
                 var diagnostics = result.Diagnostics;
 

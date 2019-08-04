@@ -73,11 +73,40 @@ namespace SoulCake.CodeAnalysis.Syntax
             return new SyntaxTree(_diagnostics, expression, endOfFileToken);
         }
 
+        private ExpresssionSyntax ParseExpression()
+        {
+            return ParseAssignmentExpression();
+        }
+
+        private ExpresssionSyntax ParseAssignmentExpression()
+        {
+            // a + b + 5
+            //     +
+            //      / \
+            //     +   5
+            //    / \
+            //   a   b
+            //this is the correct tree for the assignment
+            //      =
+            //     / \
+            //    a   =
+            //       / \
+            //      b   5
+
+            if (Peek(0).Kind == SyntaxKind.IdentifierToken &&
+                Peek(1).Kind == SyntaxKind.EqualsToken) // maybe equalsequalsToken
+            {
+                var identifierToken = NextToken();
+                var operatorToken = NextToken();
+                var right = ParseAssignmentExpression();
+                return new AssignmentExpressionSyntax(identifierToken, operatorToken, right);
+            }
+
+            return ParseBinaryExpression();
+        }
 
 
-
-
-        private ExpresssionSyntax ParseExpression(int parentPrecedence = 0)
+        private ExpresssionSyntax ParseBinaryExpression(int parentPrecedence = 0)
         {
             ExpresssionSyntax left;
            
@@ -85,7 +114,7 @@ namespace SoulCake.CodeAnalysis.Syntax
             if (unaryOperatorPrecedence !=0 && unaryOperatorPrecedence >= parentPrecedence)
             {
                 var operatorToken = NextToken();
-                var operand = ParseExpression(unaryOperatorPrecedence);
+                var operand = ParseBinaryExpression(unaryOperatorPrecedence);
                 left = new UnaryExpressionSyntax(operatorToken, operand);
             }
             else
@@ -101,7 +130,7 @@ namespace SoulCake.CodeAnalysis.Syntax
                     break;
                 }
                 var operatorToken = NextToken();
-                var right = ParseExpression(precedence);
+                var right = ParseBinaryExpression(precedence);
                 left = new BinaryExpressionSyntax(left, operatorToken, right);
             }
 
@@ -131,6 +160,14 @@ namespace SoulCake.CodeAnalysis.Syntax
                         var value = keywordToken.Kind == SyntaxKind.TrueKeyword;
                         return new LiteralExpressionSyntax(keywordToken, value);
                     }
+
+                case SyntaxKind.IdentifierToken:
+                    {
+                        var identifierToken = NextToken();
+                        return new NameExpressionSyntax(identifierToken);
+                   
+                    }
+
                 default:
                     {
                         var numberToken = MatchToken(SyntaxKind.NumberToken);

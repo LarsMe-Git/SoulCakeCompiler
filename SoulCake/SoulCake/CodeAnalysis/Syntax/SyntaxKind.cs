@@ -23,7 +23,10 @@
         AmpersandAmpersandToken,
         BangToken,
         EqualsEqualsToken,
-        BangEqualsToken
+        BangEqualsToken,
+        NameExpression,
+        AssignmentExpression,
+        EqualsToken
     }
 
 

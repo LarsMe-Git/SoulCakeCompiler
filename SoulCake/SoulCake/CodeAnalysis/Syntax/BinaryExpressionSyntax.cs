@@ -2,8 +2,12 @@
 
 namespace SoulCake.CodeAnalysis.Syntax
 {
+
     public sealed class BinaryExpressionSyntax : ExpresssionSyntax
     {
+       
+
+
         public BinaryExpressionSyntax(ExpresssionSyntax left, SyntaxToken operatorToken, ExpresssionSyntax right)
         {
             Left = left;
