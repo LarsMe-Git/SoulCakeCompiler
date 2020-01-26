@@ -3,8 +3,11 @@
     "",
     "\\scc",
     "\\SoulCake",
+    "\\SoulCake.Tests",
+    "\\SoulCake.Tests\\CodeAnalysis",
+    "\\SoulCake.Tests\\CodeAnalysis\\Syntax",
     "\\SoulCake\\SoulCake"
   ],
-  "SelectedNode": "\\scc.sln",
+  "SelectedNode": "\\SoulCake.Tests\\CodeAnalysis\\Syntax\\LexerTest.cs",
   "PreviewInSolutionExplorer": false
 }

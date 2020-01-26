@@ -19,6 +19,8 @@ namespace SoulCake
     // 51:22 Episode 1
     //Lesson 3  49:34
 
+        // by Lars Meske
+
     internal static class Program
     {
         //Test

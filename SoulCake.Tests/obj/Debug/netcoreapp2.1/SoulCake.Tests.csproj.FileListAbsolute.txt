@@ -6,8 +6,6 @@ C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Test
 C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\bin\Debug\netcoreapp2.1\SoulCake.Tests.runtimeconfig.dev.json
 C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\bin\Debug\netcoreapp2.1\SoulCake.Tests.dll
 C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\bin\Debug\netcoreapp2.1\SoulCake.Tests.pdb
-C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\bin\Debug\netcoreapp2.1\scc.dll
-C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\bin\Debug\netcoreapp2.1\scc.pdb
 C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\obj\Debug\netcoreapp2.1\SoulCake.Tests.csprojAssemblyReference.cache
 C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\obj\Debug\netcoreapp2.1\SoulCake.Tests.csproj.CoreCompileInputs.cache
 C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\SoulCake.Tests\obj\Debug\netcoreapp2.1\SoulCake.Tests.AssemblyInfoInputs.cache

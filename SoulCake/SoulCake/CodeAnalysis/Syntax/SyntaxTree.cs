@@ -21,6 +21,25 @@ namespace SoulCake.CodeAnalysis.Syntax
             var parser = new Parser(text);
             return parser.Parse();
         }
+
+        public static IEnumerable<SyntaxToken> ParseTokens(string text)
+        {
+            var lexer = new Lexer(text);
+
+        while (true)
+            {
+                var token = lexer.Lex();
+                if (token.Kind == SyntaxKind.EndOfFileToken)
+                {
+                    break;
+                }
+                else
+                {
+                    yield return token;
+                }
+            }
+            
+        }
     }
 
 
