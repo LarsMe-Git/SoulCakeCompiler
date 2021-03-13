@@ -7,7 +7,7 @@ using Xunit;
 namespace SoulCake.Tests.CodeAnalysis.Syntax
 {
     //Lesson 4 32:00
-    public class LexerTest
+    public class LexerTests
     {
         [Theory]
         [MemberData(nameof(GetTokensData))]

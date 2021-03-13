@@ -16,8 +16,8 @@ namespace SoulCake
     //        1   * binary operator node                      +   3
     //           / \                                         / \     
     //          2   3 Number node                            1   2
-    // 51:22 Episode 1
-    //Lesson 3  49:34
+    // 
+    //Lesson 4  1:24:00
 
         // by Lars Meske
 
