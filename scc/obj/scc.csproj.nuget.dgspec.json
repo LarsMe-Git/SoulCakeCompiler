@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\scc\\scc.csproj": {}
+    "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\scc\\scc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\scc\\scc.csproj": {
+    "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\scc\\scc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\scc\\scc.csproj",
+        "projectUniqueName": "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\scc\\scc.csproj",
         "projectName": "scc",
-        "projectPath": "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\scc\\scc.csproj",
+        "projectPath": "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\scc\\scc.csproj",
         "packagesPath": "C:\\Users\\Lars-Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\scc\\obj\\",
+        "outputPath": "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\scc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "F:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Lars-Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -29,9 +31,10 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {
-              "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj": {
-                "projectPath": "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj"
+              "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj": {
+                "projectPath": "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj"
               }
             }
           }
@@ -44,6 +47,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.CodeAnalysis.CSharp": {
               "target": "Package",
@@ -74,25 +78,27 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj": {
+    "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj",
+        "projectUniqueName": "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj",
         "projectName": "SoulCake",
-        "projectPath": "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj",
+        "projectPath": "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj",
         "packagesPath": "C:\\Users\\Lars-Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\obj\\",
+        "outputPath": "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "F:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Lars-Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -103,6 +109,7 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {}
           }
         },
@@ -114,6 +121,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -132,7 +140,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }

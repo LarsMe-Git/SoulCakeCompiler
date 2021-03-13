@@ -4,7 +4,6 @@ C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\scc\bin\Debug
 C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\scc\bin\Debug\netcoreapp2.1\scc.dll
 C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\scc\bin\Debug\netcoreapp2.1\scc.pdb
 C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\scc\obj\Debug\netcoreapp2.1\scc.csprojAssemblyReference.cache
-C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\scc\obj\Debug\netcoreapp2.1\scc.csproj.CoreCompileInputs.cache
 C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\scc\obj\Debug\netcoreapp2.1\scc.AssemblyInfoInputs.cache
 C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\scc\obj\Debug\netcoreapp2.1\scc.AssemblyInfo.cs
 C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\scc\obj\Debug\netcoreapp2.1\scc.dll
@@ -12,3 +11,5 @@ C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\scc\obj\Debug
 C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\scc\bin\Debug\netcoreapp2.1\SoulCake.dll
 C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\scc\bin\Debug\netcoreapp2.1\SoulCake.pdb
 C:\Users\Lars-Admin\source\repos\SoulCakeCompiler\SoulCakeCompiler\scc\obj\Debug\netcoreapp2.1\scc.csproj.CopyComplete
+C:\Users\Lars-Admin\Source\Repos\SoulCakeCompiler\SoulCakeCompiler\scc\obj\Debug\netcoreapp2.1\scc.csproj.CoreCompileInputs.cache
+C:\Users\Lars-Admin\Source\Repos\SoulCakeCompiler\SoulCakeCompiler\scc\obj\Debug\netcoreapp2.1\scc.genruntimeconfig.cache
