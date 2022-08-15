@@ -6,7 +6,7 @@ using Xunit;
 
 namespace SoulCake.Tests.CodeAnalysis.Syntax
 {
-    //Lesson 5 46:00
+   
     public class LexerTests
     {
         [Fact]

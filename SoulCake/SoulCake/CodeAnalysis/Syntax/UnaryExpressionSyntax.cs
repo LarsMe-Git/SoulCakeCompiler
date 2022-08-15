@@ -16,13 +16,7 @@ namespace SoulCake.CodeAnalysis.Syntax
         public SyntaxToken OperatorToken { get; }
         public ExpresssionSyntax Operand { get; }
 
-        public override IEnumerable<SyntaxNode> GetChildren()
-        {
-            //yield produce stateful iterators
-     
-            yield return OperatorToken;
-            yield return Operand;
-        }
+      
     }
 
 }

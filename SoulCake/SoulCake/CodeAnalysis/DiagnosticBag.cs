@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using SoulCake.CodeAnalysis.Syntax;
+using SoulCake.CodeAnalysis.Text;
 
 namespace SoulCake.CodeAnalysis
 {

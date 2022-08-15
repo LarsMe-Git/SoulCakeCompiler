@@ -16,13 +16,7 @@ namespace SoulCake.CodeAnalysis.Syntax
         public SyntaxToken EqualsToken { get; }
         public ExpresssionSyntax Expresssion { get; }
 
-        public override IEnumerable<SyntaxNode> GetChildren()
-        {
-            yield return IdentifierToken;
-            yield return EqualsToken;
-            yield return Expresssion;
 
-        }
     }
 
 }
