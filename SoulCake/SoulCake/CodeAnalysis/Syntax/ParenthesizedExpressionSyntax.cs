@@ -18,12 +18,7 @@ namespace SoulCake.CodeAnalysis.Syntax
 
 
 
-        public override IEnumerable<SyntaxNode> GetChildren()
-        {
-            yield return OpenParenthesisToken;
-            yield return Expresssion;
-            yield return CloseParenthesisToken;
-        }
+
     }
 
 

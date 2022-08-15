@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using SoulCake.CodeAnalysis.Text;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace SoulCake.CodeAnalysis.Syntax
@@ -17,12 +18,9 @@ namespace SoulCake.CodeAnalysis.Syntax
         public int Postion { get; }
         public string Text { get; }
         public object Value { get; }
-        public TextSpan Span => new TextSpan(Postion, Text.Length);
+        public override TextSpan Span => new TextSpan(Postion, Text?.Length ?? 0);
 
-        public override IEnumerable<SyntaxNode> GetChildren()
-        {
-            return Enumerable.Empty<SyntaxNode>();
-        }
+ 
     }
 
 

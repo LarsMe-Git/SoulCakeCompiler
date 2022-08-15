@@ -1,4 +1,6 @@
-﻿namespace SoulCake.CodeAnalysis
+﻿using SoulCake.CodeAnalysis.Text;
+
+namespace SoulCake.CodeAnalysis
 {
     public sealed class Diagnostic
     {
