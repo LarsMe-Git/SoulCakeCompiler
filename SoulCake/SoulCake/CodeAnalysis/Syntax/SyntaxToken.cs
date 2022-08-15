@@ -18,7 +18,7 @@ namespace SoulCake.CodeAnalysis.Syntax
         public int Postion { get; }
         public string Text { get; }
         public object Value { get; }
-        public override TextSpan Span => new TextSpan(Postion, Text.Length);
+        public override TextSpan Span => new TextSpan(Postion, Text?.Length ?? 0);
 
  
     }
