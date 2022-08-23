@@ -96,7 +96,7 @@ namespace SoulCake.CodeAnalysis.Text
             var l = position + 1 >= text.Length ? '\0' : text[position + 1];
 
 
-           if (c == '\r' && 1 == '\n')
+           if (c == '\r' && l == '\n')
             {
                 return 2;
             }

@@ -4,9 +4,12 @@ using System.Collections;
 using System.Collections.Generic;
 using Xunit;
 
-namespace SoulCake.Tests.CodeAnalysis.Syntax 
-{ 
-   public class SyntaxFactTests
+namespace SoulCake.Tests.CodeAnalysis.Syntax
+{
+
+
+
+    public class SyntaxFactTests
    {
        [Theory]
        [MemberData(nameof(GetSyntaxKindData))]

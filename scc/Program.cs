@@ -19,7 +19,7 @@ namespace SoulCake
     //           / \                                         / \     
     //          2   3 Number node                            1   2
     // 
-    //episode 5 done
+    //episode 6 29:00
 
         // by Lars Meske
 
@@ -34,15 +34,18 @@ namespace SoulCake
 
             while (true)
             {
+                Console.ForegroundColor = ConsoleColor.Green;
                 if (textBuilder.Length == 0)
                 {
-                    Console.WriteLine("> ");
+                    Console.Write("» ");
                 }
                 else
                 {
-                    Console.Write("| ");
+                    Console.Write("· ");
                 }
-                
+
+                Console.ResetColor();
+
                 var input = Console.ReadLine();
                 var isBlank = string.IsNullOrWhiteSpace(input);
               
@@ -68,7 +71,7 @@ namespace SoulCake
                 textBuilder.AppendLine(input);
                 var text = textBuilder.ToString();
 
-                var syntaxTree = SyntaxTree.Parse(input);
+                var syntaxTree = SyntaxTree.Parse(text);
 
                 if (!isBlank && syntaxTree.Diagnostics.Any())
                 {
@@ -89,10 +92,12 @@ namespace SoulCake
                     Console.ResetColor();
                 }
 
-                if (!diagnostics.Any())
+                if (!result.Diagnostics.Any())
                 {
-                 
+
+                    Console.ForegroundColor = ConsoleColor.Magenta;
                     Console.WriteLine(result.Value);
+                    Console.ResetColor();
                 }
                 else
                 {
