@@ -74,7 +74,7 @@ namespace SoulCake.CodeAnalysis.Text
                 }
             }
 
-            if (position > lineStart)
+            if (position >= lineStart)
             {
                 AddLine(result, sourceText, position, lineStart, 0);
             }

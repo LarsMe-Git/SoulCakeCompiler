@@ -5870,11 +5870,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake.Tests\\SoulCake.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake.Tests\\SoulCake.Tests.csproj",
       "projectName": "SoulCake.Tests",
-      "projectPath": "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake.Tests\\SoulCake.Tests.csproj",
+      "projectPath": "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake.Tests\\SoulCake.Tests.csproj",
       "packagesPath": "C:\\Users\\Lars-Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake.Tests\\obj\\",
+      "outputPath": "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "F:\\Microsoft\\Xamarin\\NuGet\\",
@@ -5896,8 +5896,8 @@
         "netcoreapp2.1": {
           "targetAlias": "netcoreapp2.1",
           "projectReferences": {
-            "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj": {
-              "projectPath": "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj"
+            "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj": {
+              "projectPath": "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj"
             }
           }
         }

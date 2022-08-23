@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\scc\\scc.csproj": {}
+    "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\scc\\scc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\scc\\scc.csproj": {
+    "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\scc\\scc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\scc\\scc.csproj",
+        "projectUniqueName": "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\scc\\scc.csproj",
         "projectName": "scc",
-        "projectPath": "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\scc\\scc.csproj",
+        "projectPath": "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\scc\\scc.csproj",
         "packagesPath": "C:\\Users\\Lars-Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\scc\\obj\\",
+        "outputPath": "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\scc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\Microsoft\\Xamarin\\NuGet\\",
@@ -33,8 +33,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj": {
-                "projectPath": "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj"
+              "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj": {
+                "projectPath": "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj"
               }
             }
           }
@@ -81,14 +81,14 @@
         }
       }
     },
-    "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj": {
+    "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj",
+        "projectUniqueName": "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj",
         "projectName": "SoulCake",
-        "projectPath": "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj",
+        "projectPath": "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\SoulCake.csproj",
         "packagesPath": "C:\\Users\\Lars-Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lars-Admin\\Source\\Repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\obj\\",
+        "outputPath": "C:\\Users\\Lars-Admin\\source\\repos\\SoulCakeCompiler\\SoulCakeCompiler\\SoulCake\\SoulCake\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\Microsoft\\Xamarin\\NuGet\\",
